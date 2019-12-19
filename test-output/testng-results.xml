@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[pass:title is matching]]>
+    </line>
+    <line>
+      <![CDATA[pass:title is matching]]>
+    </line>
+    <line>
+      <![CDATA[pass:title is matching]]>
+    </line>
+    <line>
+      <![CDATA[pass:title is matching]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="316598" started-at="2019-12-17T03:13:27Z" finished-at="2019-12-17T03:18:44Z">
+    <groups>
+    </groups>
+    <test name="chromeTest" duration-ms="305150" started-at="2019-12-17T03:13:27Z" finished-at="2019-12-17T03:18:32Z">
+      <class name="Scripts.n1">
+        <test-method status="PASS" signature="precondition(java.lang.String)[pri:0, instance:Scripts.n1@91161c7]" name="precondition" is-config="true" duration-ms="52100" started-at="2019-12-17T03:17:14Z" finished-at="2019-12-17T03:18:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="loginscript()[pri:0, instance:Scripts.n1@91161c7]" name="loginscript" duration-ms="9325" started-at="2019-12-17T03:18:06Z" finished-at="2019-12-17T03:18:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[pass:title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginscript -->
+        <test-method status="PASS" signature="postcondition(org.testng.ITestResult)[pri:0, instance:Scripts.n1@91161c7]" name="postcondition" is-config="true" duration-ms="16574" started-at="2019-12-17T03:18:16Z" finished-at="2019-12-17T03:18:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginscript status=SUCCESS method=n1.loginscript()[pri:0, instance:Scripts.n1@91161c7] output=pass:title is matching]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- Scripts.n1 -->
+      <class name="Scripts.n2">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:Scripts.n2@5c3bd550]" name="precondition" is-config="true" duration-ms="138499" started-at="2019-12-17T03:13:27Z" finished-at="2019-12-17T03:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="logoutscript()[pri:0, instance:Scripts.n2@5c3bd550]" name="logoutscript" duration-ms="85329" started-at="2019-12-17T03:15:46Z" finished-at="2019-12-17T03:17:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[pass:title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutscript -->
+        <test-method status="PASS" signature="postcondition(org.testng.ITestResult)[pri:0, instance:Scripts.n2@5c3bd550]" name="postcondition" is-config="true" duration-ms="3180" started-at="2019-12-17T03:17:11Z" finished-at="2019-12-17T03:17:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoutscript status=SUCCESS method=n2.logoutscript()[pri:0, instance:Scripts.n2@5c3bd550] output=pass:title is matching]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- Scripts.n2 -->
+    </test> <!-- chromeTest -->
+    <test name="firefoxTest" duration-ms="316596" started-at="2019-12-17T03:13:27Z" finished-at="2019-12-17T03:18:44Z">
+      <class name="Scripts.n1">
+        <test-method status="PASS" signature="precondition(java.lang.String)[pri:0, instance:Scripts.n1@42dafa95]" name="precondition" is-config="true" duration-ms="79990" started-at="2019-12-17T03:17:16Z" finished-at="2019-12-17T03:18:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="loginscript()[pri:0, instance:Scripts.n1@42dafa95]" name="loginscript" duration-ms="2464" started-at="2019-12-17T03:18:36Z" finished-at="2019-12-17T03:18:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[pass:title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginscript -->
+        <test-method status="PASS" signature="postcondition(org.testng.ITestResult)[pri:0, instance:Scripts.n1@42dafa95]" name="postcondition" is-config="true" duration-ms="4881" started-at="2019-12-17T03:18:39Z" finished-at="2019-12-17T03:18:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginscript status=SUCCESS method=n1.loginscript()[pri:0, instance:Scripts.n1@42dafa95] output=pass:title is matching]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- Scripts.n1 -->
+      <class name="Scripts.n2">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:Scripts.n2@589838eb]" name="precondition" is-config="true" duration-ms="138497" started-at="2019-12-17T03:13:27Z" finished-at="2019-12-17T03:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="logoutscript()[pri:0, instance:Scripts.n2@589838eb]" name="logoutscript" duration-ms="88068" started-at="2019-12-17T03:15:46Z" finished-at="2019-12-17T03:17:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[pass:title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutscript -->
+        <test-method status="PASS" signature="postcondition(org.testng.ITestResult)[pri:0, instance:Scripts.n2@589838eb]" name="postcondition" is-config="true" duration-ms="2627" started-at="2019-12-17T03:17:14Z" finished-at="2019-12-17T03:17:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoutscript status=SUCCESS method=n2.logoutscript()[pri:0, instance:Scripts.n2@589838eb] output=pass:title is matching]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- Scripts.n2 -->
+    </test> <!-- firefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
